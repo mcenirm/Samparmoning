@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF5C9E85232345AB003D48A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5C9E84232345AB003D48A2 /* AppDelegate.m */; };
+		BF5C9E88232345AB003D48A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5C9E87232345AB003D48A2 /* ViewController.m */; };
+		BF5C9E8B232345AB003D48A2 /* Samparmoning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF5C9E89232345AB003D48A2 /* Samparmoning.xcdatamodeld */; };
+		BF5C9E8D232345AC003D48A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5C9E8C232345AC003D48A2 /* Assets.xcassets */; };
+		BF5C9E90232345AC003D48A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5C9E8E232345AC003D48A2 /* Main.storyboard */; };
+		BF5C9E93232345AC003D48A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5C9E92232345AC003D48A2 /* main.m */; };
+		BF5C9E9E232345AC003D48A2 /* SamparmoningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5C9E9D232345AC003D48A2 /* SamparmoningTests.m */; };
+		BF5C9EA9232345AC003D48A2 /* SamparmoningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5C9EA8232345AC003D48A2 /* SamparmoningUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF5C9E9A232345AC003D48A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF5C9E78232345AB003D48A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF5C9E7F232345AB003D48A2;
+			remoteInfo = Samparmoning;
+		};
+		BF5C9EA5232345AC003D48A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF5C9E78232345AB003D48A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF5C9E7F232345AB003D48A2;
+			remoteInfo = Samparmoning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF5C9E80232345AB003D48A2 /* Samparmoning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Samparmoning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5C9E83232345AB003D48A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF5C9E84232345AB003D48A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF5C9E86232345AB003D48A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF5C9E87232345AB003D48A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF5C9E8A232345AB003D48A2 /* Samparmoning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Samparmoning.xcdatamodel; sourceTree = "<group>"; };
+		BF5C9E8C232345AC003D48A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF5C9E8F232345AC003D48A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF5C9E91232345AC003D48A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5C9E92232345AC003D48A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF5C9E94232345AC003D48A2 /* Samparmoning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Samparmoning.entitlements; sourceTree = "<group>"; };
+		BF5C9E99232345AC003D48A2 /* SamparmoningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamparmoningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5C9E9D232345AC003D48A2 /* SamparmoningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamparmoningTests.m; sourceTree = "<group>"; };
+		BF5C9E9F232345AC003D48A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5C9EA4232345AC003D48A2 /* SamparmoningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamparmoningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5C9EA8232345AC003D48A2 /* SamparmoningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamparmoningUITests.m; sourceTree = "<group>"; };
+		BF5C9EAA232345AC003D48A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF5C9E7D232345AB003D48A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5C9E96232345AC003D48A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5C9EA1232345AC003D48A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF5C9E77232345AB003D48A2 = {
+			isa = PBXGroup;
+			children = (
+				BF5C9E82232345AB003D48A2 /* Samparmoning */,
+				BF5C9E9C232345AC003D48A2 /* SamparmoningTests */,
+				BF5C9EA7232345AC003D48A2 /* SamparmoningUITests */,
+				BF5C9E81232345AB003D48A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF5C9E81232345AB003D48A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF5C9E80232345AB003D48A2 /* Samparmoning.app */,
+				BF5C9E99232345AC003D48A2 /* SamparmoningTests.xctest */,
+				BF5C9EA4232345AC003D48A2 /* SamparmoningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF5C9E82232345AB003D48A2 /* Samparmoning */ = {
+			isa = PBXGroup;
+			children = (
+				BF5C9E83232345AB003D48A2 /* AppDelegate.h */,
+				BF5C9E84232345AB003D48A2 /* AppDelegate.m */,
+				BF5C9E86232345AB003D48A2 /* ViewController.h */,
+				BF5C9E87232345AB003D48A2 /* ViewController.m */,
+				BF5C9E8C232345AC003D48A2 /* Assets.xcassets */,
+				BF5C9E8E232345AC003D48A2 /* Main.storyboard */,
+				BF5C9E91232345AC003D48A2 /* Info.plist */,
+				BF5C9E92232345AC003D48A2 /* main.m */,
+				BF5C9E94232345AC003D48A2 /* Samparmoning.entitlements */,
+				BF5C9E89232345AB003D48A2 /* Samparmoning.xcdatamodeld */,
+			);
+			path = Samparmoning;
+			sourceTree = "<group>";
+		};
+		BF5C9E9C232345AC003D48A2 /* SamparmoningTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF5C9E9D232345AC003D48A2 /* SamparmoningTests.m */,
+				BF5C9E9F232345AC003D48A2 /* Info.plist */,
+			);
+			path = SamparmoningTests;
+			sourceTree = "<group>";
+		};
+		BF5C9EA7232345AC003D48A2 /* SamparmoningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF5C9EA8232345AC003D48A2 /* SamparmoningUITests.m */,
+				BF5C9EAA232345AC003D48A2 /* Info.plist */,
+			);
+			path = SamparmoningUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF5C9E7F232345AB003D48A2 /* Samparmoning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5C9EAD232345AC003D48A2 /* Build configuration list for PBXNativeTarget "Samparmoning" */;
+			buildPhases = (
+				BF5C9E7C232345AB003D48A2 /* Sources */,
+				BF5C9E7D232345AB003D48A2 /* Frameworks */,
+				BF5C9E7E232345AB003D48A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Samparmoning;
+			productName = Samparmoning;
+			productReference = BF5C9E80232345AB003D48A2 /* Samparmoning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF5C9E98232345AC003D48A2 /* SamparmoningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5C9EB0232345AC003D48A2 /* Build configuration list for PBXNativeTarget "SamparmoningTests" */;
+			buildPhases = (
+				BF5C9E95232345AC003D48A2 /* Sources */,
+				BF5C9E96232345AC003D48A2 /* Frameworks */,
+				BF5C9E97232345AC003D48A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF5C9E9B232345AC003D48A2 /* PBXTargetDependency */,
+			);
+			name = SamparmoningTests;
+			productName = SamparmoningTests;
+			productReference = BF5C9E99232345AC003D48A2 /* SamparmoningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF5C9EA3232345AC003D48A2 /* SamparmoningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5C9EB3232345AC003D48A2 /* Build configuration list for PBXNativeTarget "SamparmoningUITests" */;
+			buildPhases = (
+				BF5C9EA0232345AC003D48A2 /* Sources */,
+				BF5C9EA1232345AC003D48A2 /* Frameworks */,
+				BF5C9EA2232345AC003D48A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF5C9EA6232345AC003D48A2 /* PBXTargetDependency */,
+			);
+			name = SamparmoningUITests;
+			productName = SamparmoningUITests;
+			productReference = BF5C9EA4232345AC003D48A2 /* SamparmoningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF5C9E78232345AB003D48A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = enuous;
+				TargetAttributes = {
+					BF5C9E7F232345AB003D48A2 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					BF5C9E98232345AC003D48A2 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BF5C9E7F232345AB003D48A2;
+					};
+					BF5C9EA3232345AC003D48A2 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BF5C9E7F232345AB003D48A2;
+					};
+				};
+			};
+			buildConfigurationList = BF5C9E7B232345AB003D48A2 /* Build configuration list for PBXProject "Samparmoning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF5C9E77232345AB003D48A2;
+			productRefGroup = BF5C9E81232345AB003D48A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF5C9E7F232345AB003D48A2 /* Samparmoning */,
+				BF5C9E98232345AC003D48A2 /* SamparmoningTests */,
+				BF5C9EA3232345AC003D48A2 /* SamparmoningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF5C9E7E232345AB003D48A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5C9E8D232345AC003D48A2 /* Assets.xcassets in Resources */,
+				BF5C9E90232345AC003D48A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5C9E97232345AC003D48A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5C9EA2232345AC003D48A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF5C9E7C232345AB003D48A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5C9E8B232345AB003D48A2 /* Samparmoning.xcdatamodeld in Sources */,
+				BF5C9E88232345AB003D48A2 /* ViewController.m in Sources */,
+				BF5C9E93232345AC003D48A2 /* main.m in Sources */,
+				BF5C9E85232345AB003D48A2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5C9E95232345AC003D48A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5C9E9E232345AC003D48A2 /* SamparmoningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5C9EA0232345AC003D48A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5C9EA9232345AC003D48A2 /* SamparmoningUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF5C9E9B232345AC003D48A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF5C9E7F232345AB003D48A2 /* Samparmoning */;
+			targetProxy = BF5C9E9A232345AC003D48A2 /* PBXContainerItemProxy */;
+		};
+		BF5C9EA6232345AC003D48A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF5C9E7F232345AB003D48A2 /* Samparmoning */;
+			targetProxy = BF5C9EA5232345AC003D48A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF5C9E8E232345AC003D48A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5C9E8F232345AC003D48A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF5C9EAB232345AC003D48A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BF5C9EAC232345AC003D48A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BF5C9EAE232345AC003D48A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Samparmoning/Samparmoning.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Samparmoning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = enuous.Samparmoning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF5C9EAF232345AC003D48A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Samparmoning/Samparmoning.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Samparmoning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = enuous.Samparmoning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF5C9EB1232345AC003D48A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SamparmoningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = enuous.SamparmoningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Samparmoning.app/Contents/MacOS/Samparmoning";
+			};
+			name = Debug;
+		};
+		BF5C9EB2232345AC003D48A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SamparmoningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = enuous.SamparmoningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Samparmoning.app/Contents/MacOS/Samparmoning";
+			};
+			name = Release;
+		};
+		BF5C9EB4232345AC003D48A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SamparmoningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = enuous.SamparmoningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Samparmoning;
+			};
+			name = Debug;
+		};
+		BF5C9EB5232345AC003D48A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SamparmoningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = enuous.SamparmoningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Samparmoning;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF5C9E7B232345AB003D48A2 /* Build configuration list for PBXProject "Samparmoning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5C9EAB232345AC003D48A2 /* Debug */,
+				BF5C9EAC232345AC003D48A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5C9EAD232345AC003D48A2 /* Build configuration list for PBXNativeTarget "Samparmoning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5C9EAE232345AC003D48A2 /* Debug */,
+				BF5C9EAF232345AC003D48A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5C9EB0232345AC003D48A2 /* Build configuration list for PBXNativeTarget "SamparmoningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5C9EB1232345AC003D48A2 /* Debug */,
+				BF5C9EB2232345AC003D48A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5C9EB3232345AC003D48A2 /* Build configuration list for PBXNativeTarget "SamparmoningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5C9EB4232345AC003D48A2 /* Debug */,
+				BF5C9EB5232345AC003D48A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF5C9E89232345AB003D48A2 /* Samparmoning.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF5C9E8A232345AB003D48A2 /* Samparmoning.xcdatamodel */,
+			);
+			currentVersion = BF5C9E8A232345AB003D48A2 /* Samparmoning.xcdatamodel */;
+			path = Samparmoning.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF5C9E78232345AB003D48A2 /* Project object */;
+}
