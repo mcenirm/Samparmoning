@@ -1,1 +1,6 @@
 language: objective-c
+os: osx
+osx_image: xcode10.3
+xcode_destination: platform=macOS
+xcode_project: Samparmoning.xcodeproj
+xcode_scheme: Samparmoning
